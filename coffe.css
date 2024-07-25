@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*/*font-family: 'Roboto', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+.background{
+    background-image: url(img/home-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+body{
+    background-color: #000;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: solid 0.1px rgb(54, 46, 46)
+}
+.logo{
+    margin-left: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+li{
+    list-style: none;
+}
+li > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12pt;
+    transition: 0.3s;
+    cursor: pointer;
+}
+a:hover{
+    text-transform: capitalize;
+    color:rgb(101, 110, 103);
+    border-bottom: solid 1px;
+
+}
+.icones{
+    margin-right: 100px;
+}
+.icones>.ico{
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.icones>.ico:hover{
+    text-transform: capitalize;
+    color: rgb(101, 110, 103);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #fff;
+    width: 70%;
+}
+main > h1{
+    margin-left: 100px;
+    margin-top: 140px;
+    font-size: 56pt;
+    width: 60%;
+    line-height:80px;
+    letter-spacing: 1.5px;
+}
+main > p{
+    color: rgb(231, 208, 208);
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 12pt;
+    letter-spacing: 0.5px;
+    width: 80%;
+    line-height: 25px;
+}
+main > .btn-p {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 12pt;
+    color: #fff;
+    background: #d3ad7d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor:pointer;
+}
+.btn-p:hover{
+    letter-spacing: 1.5px;
+    transform: 0.3s all;
+}
+#sobreNos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 36pt;
+}
+
+#containerSob{
+    display: flex;
+    margin-bottom: 30px;
+}
+#sobreNos > h1 > span{
+    color: #d3ad7d;
+}
+#imgsob{
+    margin-left: 100px;
+    
+}
+#imgsob > img{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color:#13131a ;
+    height: 397.9px;
+}
+#textsob{
+    height: 397.9px;
+    margin-right: 100px;
+    padding-left: 50px;
+    color: #fff;
+    background-color:#13131a ;
+    box-sizing: border-box;
+}
+#textsob > h2{
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 50px;
+
+}
+#textsob > .bb{
+    margin-bottom: 20px;
+    font-size: 12pt;
+    color: rgb(231, 208, 208);
+}
+#textsob > .aa{
+    margin-bottom: 30;
+    font-size: 12pt;
+    color: rgb(231, 208, 208);
+}
+#textsob > button{
+    padding: 12px 30px;
+    font-size: 12pt;
+    color: #fff;
+    background: #d3ad7d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor:pointer;
+    margin-left: 330px;
+    margin-top: 62px;
+}
+.containe{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.mennn{
+    text-align: center;
+    padding: 60px 0px 50px;
+    background-color: #13131a;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    line-height: 40px;
+    border: solid 3px #171721;;
+}
+.mennn:hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+    background-color: #13131a;
+}
+h2.men{
+    color: #fff;
+}
+p.men{
+    color: rgb(231, 208, 208);
+    letter-spacing: 0.5px;
+
+}
+.mennn > p > span{
+    font-size: 9pt;
+    margin-left: 4px;
+    text-decoration:line-through ;
+}
+.mennn > button{
+    margin-top: 15px;
+    padding: 12px 30px;
+    font-size: 12pt;
+    color: #fff;
+    background: #d3ad7d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor:pointer;
+}
+.mennn > button:hover{
+    letter-spacing: 1.5px;
+    transform: 0.3s all;
+}
+.nossomen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 27pt;
+}
+.nossomen > h1 > span{
+    color: #d3ad7d;
+}
